@@ -1,0 +1,7 @@
+status: true
+dependencies: {  }
+id: pw_page_title
+label: 'Pw Page Title'
+icon_uuid: null
+description: 'Simple header contains background title and subtitle'
+behavior_plugins: {  }

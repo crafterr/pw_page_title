@@ -1,0 +1,5 @@
+name: 'Pw Page Title'
+type: module
+description: 'Simple header contains background title and subtitle'
+core: 8.x
+package: 'PixelWeb'

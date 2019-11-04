@@ -1,0 +1,30 @@
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.pw_page_title.field_pw_image_background
+    - field.field.paragraph.pw_page_title.field_pw_subtitle
+    - field.field.paragraph.pw_page_title.field_pw_title
+    - paragraphs.paragraphs_type.pw_page_title
+id: paragraph.pw_page_title.default
+targetEntityType: paragraph
+bundle: pw_page_title
+mode: default
+content:
+  field_pw_subtitle:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_pw_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  field_pw_image_background: true

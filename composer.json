@@ -1,0 +1,17 @@
+{
+    "name": "crafterr/pw_page_title",
+    "type": "drupal-module",
+    "description": "Simple header contains background title and subtitle",
+    "keywords": ["Drupal"],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1"
+    },
+    "authors": [
+        {
+            "name": "Adam Pietras",
+            "email": "adam@crafter.net.pl"
+        }
+    ]
+}
